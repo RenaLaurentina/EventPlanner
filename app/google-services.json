@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "259925292147",
+    "project_id": "evplant-86ec1",
+    "storage_bucket": "evplant-86ec1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259925292147:android:171c64ab2a8ba3230ee606",
+        "android_client_info": {
+          "package_name": "com.example.evplan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "259925292147-im8n06bjdfvrdaura9l3thbpbcso3g9g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.evplan",
+            "certificate_hash": "ec82d4869834cd09152be5f1282eea529c36258f"
+          }
+        },
+        {
+          "client_id": "259925292147-uauldqmg2bfqm34q61gu03q217i6l4i9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPnUyeBgc4WsQC6-w87kUMfyIs6ynDGvc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "259925292147-uauldqmg2bfqm34q61gu03q217i6l4i9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

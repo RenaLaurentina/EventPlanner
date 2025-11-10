@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EventActivity">
+
+    <!-- Daftar Event -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        tools:itemCount="3"
+        tools:listitem="@layout/item_event"
+        />
+
+    <!-- Loading Indicator -->
+    <ProgressBar
+        android:id="@+id/loading"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <!-- Tombol Tambah Event -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/tombol_tambah"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:contentDescription="Tombol untuk menambah event"
+        android:layout_margin="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src="@android:drawable/ic_input_add"
+        app:tint="@android:color/holo_blue_light"
+        android:backgroundTint="@color/cardview_dark_background"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/tombol_logout"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:contentDescription="Logout dari akun"
+        android:src="@android:drawable/ic_lock_power_off"
+        app:backgroundTint="@android:color/holo_red_light"
+        app:tint="@android:color/white" />
+
+</RelativeLayout>

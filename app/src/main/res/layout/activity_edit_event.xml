@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EventActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tv_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit Event"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/et_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="textCapSentences"
+            android:hint="Judul Event"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/et_description"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:inputType="textMultiLine"
+            android:hint="Deskripsi Detail"
+            android:textSize="18sp"
+            android:gravity="top"
+            android:padding="10dp"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/et_date"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="none"
+            android:hint="Tanggal &amp; Waktu (Pilih)"
+            android:textSize="18sp"
+            android:focusable="false"
+            android:clickable="true"
+            android:padding="10dp"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/et_location"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="textCapWords"
+            android:hint="Lokasi Event"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:layout_marginTop="10dp" />
+
+        <CheckBox
+            android:id="@+id/cb_reminder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aktifkan Pengingat"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/tombol_simpan_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simpan Perubahan Event"
+            android:textSize="20sp"
+            android:layout_marginTop="40dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
